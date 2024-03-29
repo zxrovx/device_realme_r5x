@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r5x.mk
+    $(LOCAL_DIR)/superior_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_r5x-user \
-    lineage_r5x-userdebug \
-    lineage_r5x-eng
+    superior_r5x-user \
+    superior_r5x-userdebug \
+    superior_r5x-eng
