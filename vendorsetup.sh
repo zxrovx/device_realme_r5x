@@ -1,6 +1,10 @@
 # Remove android_hardware_xiaomi
 rm -rf hardware/xiaomi/
 
+# Replace external/angle
+rm -rf external/angle
+git clone --depth=1 https://github.com/mizdrake7/platform_external_angle external/angle
+
 # Export before build
 export KBUILD_BUILD_USER=MAdMiZ
 export KBUILD_BUILD_HOST=MAdMiZ
