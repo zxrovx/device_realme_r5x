@@ -332,6 +332,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor \
 
+# Kernel (Prebuilt)
+TARGET_KERNEL_DIR := device/realme/r5x-kernel
+LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image.gz-dtb
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.r5x \
