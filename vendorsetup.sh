@@ -5,6 +5,10 @@ rm -rf hardware/xiaomi/
 rm -rf external/angle
 git clone --depth=1 https://github.com/mizdrake7/platform_external_angle external/angle
 
+# Replace external/tinycompress
+rm -rf external/tinycompress
+git clone --depth=1 https://github.com/mizdrake7/external_tinycompress external/tinycompress
+
 # Replace Display HAL
 rm -rf hardware/qcom-caf/sm8150/display
 git clone --depth=1 https://github.com/mizdrake7/hardware_qcom-caf_sm8150_display hardware/qcom-caf/sm8150/display
