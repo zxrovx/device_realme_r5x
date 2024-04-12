@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libcomprcapture \
     libexthwplugin \
-    libhdmipassthru \
     libspkrprot
 
 PRODUCT_COPY_FILES += \
