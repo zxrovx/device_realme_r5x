@@ -59,10 +59,6 @@ function blob_fixup() {
             patchelf --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             patchelf --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             ;;
-        vendor/bin/hw/android.hardware.health@2.0-service)
-            patchelf --replace-needed "libutils.so" "libutils-v30.so" "${2}"
-            patchelf --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
-            ;;
         vendor/lib64/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;
