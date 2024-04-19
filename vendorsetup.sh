@@ -13,9 +13,6 @@ rm -rf hardware/xiaomi/
 rm -rf hardware/qcom-caf/sm8150/display
 git clone --depth=1 https://github.com/mizdrake7/hardware_qcom-caf_sm8150_display hardware/qcom-caf/sm8150/display
 
-# Kernel (prebuilt)
-git clone --depth=1 https://github.com/mizdrake7/device_realme_r5x-kernel device/realme/r5x-kernel
-
 # Export before build
 export KBUILD_BUILD_USER=MAdMiZ
 export KBUILD_BUILD_HOST=MAdMiZ
