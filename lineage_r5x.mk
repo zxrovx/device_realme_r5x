@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Sweet stuff
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,7 +32,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := superior_r5x
+PRODUCT_NAME := lineage_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
@@ -46,7 +46,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # RisingOs Flags
 RISING_CHIPSET := SM6125
-RISING_MAINTAINER := MAdMiZ
+RISING_MAINTAINER := ZXROVX
 WITH_GMS := false
 RISING_PACKAGE_TYPE := Vanilla
 TARGET_CORE_GMS := true
